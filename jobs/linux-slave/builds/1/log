@@ -1,0 +1,6 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building remotely on [8mha:////4OLNGkscgL5hoND1QFDgxjmjkSqodbfJEApAii8uY3VOAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZR/eT83ILSktQifaCVpRXxxTmJZakA9yNb38oAAAA=[0mlinux_slave in workspace /home/jenkins/workspace/linux-slave
+[linux-slave] $ /bin/sh -xe /tmp/jenkins2050960807323555456.sh
++ touch slave salve
+Finished: SUCCESS

@@ -1,0 +1,95 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/project1
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/prashanth-1993/hello-world-servlet.git # timeout=10
+Fetching upstream changes from https://github.com/prashanth-1993/hello-world-servlet.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/prashanth-1993/hello-world-servlet.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision daa96d0c33ad8714ad27d29bdbd0c61bff7c21bb (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f daa96d0c33ad8714ad27d29bdbd0c61bff7c21bb
+Commit message: "Test"
+ > git rev-list --no-walk daa96d0c33ad8714ad27d29bdbd0c61bff7c21bb # timeout=10
+[project1] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven/bin/mvn clean install
+[INFO] Scanning for projects...
+[8mha:////4NyZJNHzNLwsLJnNr7GdH7wGdf4b3ds0kuD8ZedVTByFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4NyZJNHzNLwsLJnNr7GdH7wGdf4b3ds0kuD8ZedVTByFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Some problems were encountered while building the effective model for com.geekcap.vmturbo:hello-world-servlet-example:war:1.0-SNAPSHOT
+[8mha:////4NyZJNHzNLwsLJnNr7GdH7wGdf4b3ds0kuD8ZedVTByFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: junit:junit:jar -> version 3.8.1 vs 4.12 @ line 90, column 19
+[8mha:////4NyZJNHzNLwsLJnNr7GdH7wGdf4b3ds0kuD8ZedVTByFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4NyZJNHzNLwsLJnNr7GdH7wGdf4b3ds0kuD8ZedVTByFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[8mha:////4NyZJNHzNLwsLJnNr7GdH7wGdf4b3ds0kuD8ZedVTByFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4NyZJNHzNLwsLJnNr7GdH7wGdf4b3ds0kuD8ZedVTByFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[8mha:////4NyZJNHzNLwsLJnNr7GdH7wGdf4b3ds0kuD8ZedVTByFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[INFO] 
+[INFO] ----------< com.geekcap.vmturbo:hello-world-servlet-example >-----------
+[INFO] Building hello-world-servlet-example Maven Webapp 1.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4Gj93K3Z0JJxJEiwCLfeeWK8vv5Jq+k1LYFmFYf8n2zgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ hello-world-servlet-example ---
+[INFO] Deleting /var/lib/jenkins/workspace/project1/target
+[INFO] 
+[8mha:////4Gj93K3Z0JJxJEiwCLfeeWK8vv5Jq+k1LYFmFYf8n2zgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hello-world-servlet-example ---
+[8mha:////4NyZJNHzNLwsLJnNr7GdH7wGdf4b3ds0kuD8ZedVTByFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/project1/src/main/resources
+[INFO] 
+[8mha:////4Gj93K3Z0JJxJEiwCLfeeWK8vv5Jq+k1LYFmFYf8n2zgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ hello-world-servlet-example ---
+[INFO] Compiling 2 source files to /var/lib/jenkins/workspace/project1/target/classes
+[INFO] 
+[8mha:////4Gj93K3Z0JJxJEiwCLfeeWK8vv5Jq+k1LYFmFYf8n2zgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hello-world-servlet-example ---
+[8mha:////4NyZJNHzNLwsLJnNr7GdH7wGdf4b3ds0kuD8ZedVTByFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/project1/src/test/resources
+[INFO] 
+[8mha:////4Gj93K3Z0JJxJEiwCLfeeWK8vv5Jq+k1LYFmFYf8n2zgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ hello-world-servlet-example ---
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/project1/target/test-classes
+[INFO] 
+[8mha:////4Gj93K3Z0JJxJEiwCLfeeWK8vv5Jq+k1LYFmFYf8n2zgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ hello-world-servlet-example ---
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/project1/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.geekcap.vmturbo.ThingTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:////4Gj93K3Z0JJxJEiwCLfeeWK8vv5Jq+k1LYFmFYf8n2zgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:2.2:war (default-war) @ hello-world-servlet-example ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [hello-world-servlet-example] in [/var/lib/jenkins/workspace/project1/target/helloworld]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/workspace/project1/src/main/webapp]
+[INFO] Webapp assembled in [45 msecs]
+[INFO] Building war: /var/lib/jenkins/workspace/project1/target/helloworld.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[8mha:////4Gj93K3Z0JJxJEiwCLfeeWK8vv5Jq+k1LYFmFYf8n2zgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ hello-world-servlet-example ---
+[INFO] Installing /var/lib/jenkins/workspace/project1/target/helloworld.war to /var/lib/jenkins/.m2/repository/com/geekcap/vmturbo/hello-world-servlet-example/1.0-SNAPSHOT/hello-world-servlet-example-1.0-SNAPSHOT.war
+[INFO] Installing /var/lib/jenkins/workspace/project1/pom.xml to /var/lib/jenkins/.m2/repository/com/geekcap/vmturbo/hello-world-servlet-example/1.0-SNAPSHOT/hello-world-servlet-example-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.741 s
+[INFO] Finished at: 2019-09-02T09:05:27Z
+[INFO] ------------------------------------------------------------------------
+Uploading artifact helloworld.war started....
+GroupId: com.mycompany
+ArtifactId: helloworld
+Classifier: 
+Type: war
+Version: 9
+File: helloworld.war
+Repository:helloworldservlet-repo1
+Uploading: http://35.158.97.151:8081/nexus/content/repositories/releases//content/repositories/helloworldservlet-repo1/com/mycompany/helloworld/9/helloworld-9.war
+81 % completed (4.1 kB / 5.0 kB).
+100 % completed (5.0 kB / 5.0 kB).
+Uploaded: http://35.158.97.151:8081/nexus/content/repositories/releases//content/repositories/helloworldservlet-repo1/com/mycompany/helloworld/9/helloworld-9.war (5.0 kB at 48 kB/s)
+Uploading artifact helloworld.war completed.
+Finished: SUCCESS

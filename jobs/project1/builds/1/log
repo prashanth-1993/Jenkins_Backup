@@ -1,0 +1,23 @@
+Started by GitHub push by prashanth-1993
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/project1
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/prashanth-1993/hello-world-servlet.git
+ > git init /var/lib/jenkins/workspace/project1 # timeout=10
+Fetching upstream changes from https://github.com/prashanth-1993/hello-world-servlet.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/prashanth-1993/hello-world-servlet.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/prashanth-1993/hello-world-servlet.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/prashanth-1993/hello-world-servlet.git # timeout=10
+Fetching upstream changes from https://github.com/prashanth-1993/hello-world-servlet.git
+ > git fetch --tags --progress https://github.com/prashanth-1993/hello-world-servlet.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision daa96d0c33ad8714ad27d29bdbd0c61bff7c21bb (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f daa96d0c33ad8714ad27d29bdbd0c61bff7c21bb
+Commit message: "Test"
+First time build. Skipping changelog.
+Finished: SUCCESS

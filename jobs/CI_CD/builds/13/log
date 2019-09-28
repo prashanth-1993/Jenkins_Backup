@@ -1,0 +1,167 @@
+Started by user [8mha:////4Cy6LzCSUc3TDkFzQTUQGw+qKTreaNFSTF/6q5pAoGOJAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgYR/dLi1CL9gqLE4ozEvJKMeENLS2MAwh824skAAAA=[0mprashanth Rajenderan
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/CI_CD
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/prashanth-1993/hello-world-servlet.git
+ > git init /var/lib/jenkins/workspace/CI_CD # timeout=10
+Fetching upstream changes from https://github.com/prashanth-1993/hello-world-servlet.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/prashanth-1993/hello-world-servlet.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/prashanth-1993/hello-world-servlet.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/prashanth-1993/hello-world-servlet.git # timeout=10
+Fetching upstream changes from https://github.com/prashanth-1993/hello-world-servlet.git
+ > git fetch --tags --progress https://github.com/prashanth-1993/hello-world-servlet.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 7bb170acb47c17e158782e770e62e70595969efe (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7bb170acb47c17e158782e770e62e70595969efe
+Commit message: "Update pom.xml"
+ > git rev-list --no-walk 22f22977e91cd7da300fa636ab3725d9ac7ac640 # timeout=10
+[CI_CD] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven/bin/mvn clean install
+[INFO] Scanning for projects...
+[8mha:////4NyZJNHzNLwsLJnNr7GdH7wGdf4b3ds0kuD8ZedVTByFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4NyZJNHzNLwsLJnNr7GdH7wGdf4b3ds0kuD8ZedVTByFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Some problems were encountered while building the effective model for com.geekcap.vmturbo:hello-world-servlet-example:war:1.0-SNAPSHOT
+[8mha:////4NyZJNHzNLwsLJnNr7GdH7wGdf4b3ds0kuD8ZedVTByFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: junit:junit:jar -> version 3.8.1 vs 4.12 @ line 90, column 19
+[8mha:////4NyZJNHzNLwsLJnNr7GdH7wGdf4b3ds0kuD8ZedVTByFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4NyZJNHzNLwsLJnNr7GdH7wGdf4b3ds0kuD8ZedVTByFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[8mha:////4NyZJNHzNLwsLJnNr7GdH7wGdf4b3ds0kuD8ZedVTByFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4NyZJNHzNLwsLJnNr7GdH7wGdf4b3ds0kuD8ZedVTByFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[8mha:////4NyZJNHzNLwsLJnNr7GdH7wGdf4b3ds0kuD8ZedVTByFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[INFO] 
+[INFO] ----------< com.geekcap.vmturbo:hello-world-servlet-example >-----------
+[INFO] Building hello-world-servlet-example Maven Webapp 1.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4Gj93K3Z0JJxJEiwCLfeeWK8vv5Jq+k1LYFmFYf8n2zgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ hello-world-servlet-example ---
+[INFO] 
+[8mha:////4Gj93K3Z0JJxJEiwCLfeeWK8vv5Jq+k1LYFmFYf8n2zgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hello-world-servlet-example ---
+[8mha:////4NyZJNHzNLwsLJnNr7GdH7wGdf4b3ds0kuD8ZedVTByFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/CI_CD/src/main/resources
+[INFO] 
+[8mha:////4Gj93K3Z0JJxJEiwCLfeeWK8vv5Jq+k1LYFmFYf8n2zgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ hello-world-servlet-example ---
+[INFO] Compiling 2 source files to /var/lib/jenkins/workspace/CI_CD/target/classes
+[INFO] 
+[8mha:////4Gj93K3Z0JJxJEiwCLfeeWK8vv5Jq+k1LYFmFYf8n2zgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hello-world-servlet-example ---
+[8mha:////4NyZJNHzNLwsLJnNr7GdH7wGdf4b3ds0kuD8ZedVTByFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/CI_CD/src/test/resources
+[INFO] 
+[8mha:////4Gj93K3Z0JJxJEiwCLfeeWK8vv5Jq+k1LYFmFYf8n2zgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ hello-world-servlet-example ---
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/CI_CD/target/test-classes
+[INFO] 
+[8mha:////4Gj93K3Z0JJxJEiwCLfeeWK8vv5Jq+k1LYFmFYf8n2zgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ hello-world-servlet-example ---
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/CI_CD/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.geekcap.vmturbo.ThingTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.147 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:////4Gj93K3Z0JJxJEiwCLfeeWK8vv5Jq+k1LYFmFYf8n2zgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:2.2:war (default-war) @ hello-world-servlet-example ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [hello-world-servlet-example] in [/var/lib/jenkins/workspace/CI_CD/target/helloworld]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/workspace/CI_CD/src/main/webapp]
+[INFO] Webapp assembled in [43 msecs]
+[INFO] Building war: /var/lib/jenkins/workspace/CI_CD/target/helloworld.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[8mha:////4Gj93K3Z0JJxJEiwCLfeeWK8vv5Jq+k1LYFmFYf8n2zgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ hello-world-servlet-example ---
+[INFO] Installing /var/lib/jenkins/workspace/CI_CD/target/helloworld.war to /var/lib/jenkins/.m2/repository/com/geekcap/vmturbo/hello-world-servlet-example/1.0-SNAPSHOT/hello-world-servlet-example-1.0-SNAPSHOT.war
+[INFO] Installing /var/lib/jenkins/workspace/CI_CD/pom.xml to /var/lib/jenkins/.m2/repository/com/geekcap/vmturbo/hello-world-servlet-example/1.0-SNAPSHOT/hello-world-servlet-example-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.850 s
+[INFO] Finished at: 2019-09-19T13:25:26Z
+[INFO] ------------------------------------------------------------------------
+Uploading Maven asset with groupId: com.geekcap.vmturbo artifactId: hello-world-servlet-example version: 1.0-SNAPSHOT To repository: releases
+Upload of /var/lib/jenkins/workspace/CI_CD/target/helloworld.war failed
+Failing build due to failure to upload file to Nexus Repository Manager Publisher
+FATAL: Upload of /var/lib/jenkins/workspace/CI_CD/target/helloworld.war failed
+com.sonatype.nexus.api.exception.RepositoryManagerException: Unable to upload component: Bad Request <html><body><error>The version 1.0-SNAPSHOT does not match the repository policy!</error></body></html>
+	at com.sonatype.nexus.api.zz.eq.a(SourceFile:37)
+	at com.sonatype.nexus.api.zz.eu.a(SourceFile:72)
+	at com.sonatype.nexus.api.zz.eu.a(SourceFile:45)
+	at com.sonatype.nexus.api.zz.eu.uploadComponent(SourceFile:26)
+	at com.sonatype.nexus.api.zz.er.uploadComponent(SourceFile:77)
+	at com.sonatype.nexus.api.repository.v2.RepositoryManagerV2Client$uploadComponent$0.call(Unknown Source)
+	at org.sonatype.nexus.ci.nxrm.v2.ComponentUploaderNxrm2$_upload_closure1$_closure2.doCall(ComponentUploaderNxrm2.groovy:64)
+Caused: java.io.IOException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at org.sonatype.nexus.ci.nxrm.v2.ComponentUploaderNxrm2$_upload_closure1$_closure2.doCall(ComponentUploaderNxrm2.groovy:67)
+Caused: java.io.IOException: Upload of /var/lib/jenkins/workspace/CI_CD/target/helloworld.war failed
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:255)
+	at org.sonatype.nexus.ci.nxrm.v2.ComponentUploaderNxrm2$_upload_closure1$_closure2.doCall(ComponentUploaderNxrm2.groovy:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at groovy.lang.Closure.call(Closure.java:430)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2040)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2025)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2066)
+	at org.codehaus.groovy.runtime.dgm$163.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:274)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:56)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.sonatype.nexus.ci.nxrm.v2.ComponentUploaderNxrm2$_upload_closure1.doCall(ComponentUploaderNxrm2.groovy:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.callClosureForMapEntry(DefaultGroovyMethods.java:5276)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2117)
+	at org.codehaus.groovy.runtime.dgm$164.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:274)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:56)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.sonatype.nexus.ci.nxrm.v2.ComponentUploaderNxrm2.upload(ComponentUploaderNxrm2.groovy:47)
+	at org.sonatype.nexus.ci.nxrm.v2.ComponentUploaderNxrm2$upload.callCurrent(Unknown Source)
+	at org.sonatype.nexus.ci.nxrm.ComponentUploader.uploadComponents(ComponentUploader.groovy:84)
+	at org.sonatype.nexus.ci.nxrm.ComponentUploader$uploadComponents.call(Unknown Source)
+	at org.sonatype.nexus.ci.nxrm.NexusPublisherBuildStep.perform(NexusPublisherBuildStep.groovy:70)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:79)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:741)
+	at hudson.model.Build$BuildExecution.build(Build.java:206)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:504)
+	at hudson.model.Run.execute(Run.java:1818)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Finished: FAILURE

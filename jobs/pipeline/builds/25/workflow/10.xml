@@ -1,0 +1,31 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.3">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2.74">
+    <parentIds>
+      <string>9</string>
+    </parentIds>
+    <id>10</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.74">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>GIT_BRANCH=origin/master</string>
+            <string>GIT_COMMIT=703884fa6cdc74e7009bfd8ffe3418da7fbb486e</string>
+            <string>GIT_PREVIOUS_COMMIT=7827c7d3e061d1e5d0d7fef4ead6dc3e9a1799d0</string>
+            <string>GIT_PREVIOUS_SUCCESSFUL_COMMIT=9db0f0a1a93a962d5ecd6e1ae039aa10846b51d9</string>
+            <string>GIT_URL=https://github.com/prashanth-1993/hello-world-servlet.git</string>
+          </list>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.37">
+      <startTime>1567696543593</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

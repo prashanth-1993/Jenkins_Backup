@@ -1,0 +1,48 @@
+Started
+[Thu Sep 05 11:16:36 UTC 2019] Starting branch indexing...
+ > git --version # timeout=10
+ > git ls-remote --symref https://github.com/prashanth-1993/hello-world-servlet.git # timeout=10
+ > git rev-parse --is-inside-work-tree # timeout=10
+Setting origin to https://github.com/prashanth-1993/hello-world-servlet.git
+ > git config remote.origin.url https://github.com/prashanth-1993/hello-world-servlet.git # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git --version # timeout=10
+ > git ls-remote -h https://github.com/prashanth-1993/hello-world-servlet.git # timeout=10
+Fetching upstream changes from origin
+ > git config --get remote.origin.url # timeout=10
+ > git fetch --tags --progress origin +refs/heads/*:refs/remotes/origin/* --prune
+Checking branches...
+  Checking branch feature1
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+  Checking branch develop
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: develop
+  Checking branch master
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: master
+  Checking branch master-bkup
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: master-bkup
+  Checking branch integration
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+  Checking branch multibranch
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: multibranch
+  Checking branch feature
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+  Checking branch F1
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: F1
+Processed 8 branches
+[Thu Sep 05 11:16:38 UTC 2019] Finished branch indexing. Indexing took 1.8 sec
+Finished: SUCCESS

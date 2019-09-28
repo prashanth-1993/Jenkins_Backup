@@ -1,0 +1,15 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.sonatype.nexus.ci.config.GlobalNexusConfiguration plugin="nexus-jenkins-plugin@3.7.20190823-091836.9f85050">
+  <nxrmConfigs>
+    <org.sonatype.nexus.ci.config.Nxrm2Configuration>
+      <id>007</id>
+      <internalId>c63d4d55-ff05-4f23-b815-96b1fd870724</internalId>
+      <displayName>mynexus</displayName>
+      <serverUrl>http://54.93.234.33:8081/nexus/</serverUrl>
+      <credentialsId>47a08872-a5a7-4b59-8691-4da41fb05bd3</credentialsId>
+    </org.sonatype.nexus.ci.config.Nxrm2Configuration>
+  </nxrmConfigs>
+  <iqConfigs/>
+  <hideNvsMessage>false</hideNvsMessage>
+  <instanceId>845a4b469f884867b9f8e6707cd0ae3e</instanceId>
+</org.sonatype.nexus.ci.config.GlobalNexusConfiguration>

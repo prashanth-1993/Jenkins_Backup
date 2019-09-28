@@ -1,0 +1,8 @@
+Started by user [8mha:////4AI2XGR0RkqoYuWqKCijQN0OFp0dZUfWK/iPe0EtTINMAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgYR/dLi1CL9gqLE4ozEvJIMXUNLS2MAmdha/ckAAAA=[0mPrashanth R
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/deploy
+[deploy] $ /bin/sh -xe /tmp/jenkins4126475967787034802.sh
++ ssh strictHostKeyChecking=no -i /var/lib/jenkins/workspace/demo.pem ec2-user@18.185.3.19 sudo chef-client
+ssh: Could not resolve hostname stricthostkeychecking=no: Name or service not known
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

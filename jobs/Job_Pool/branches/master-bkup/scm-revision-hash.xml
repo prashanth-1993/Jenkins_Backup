@@ -1,0 +1,7 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.plugins.git.GitBranchSCMRevision plugin="git@3.12.0">
+  <head class="jenkins.plugins.git.GitBranchSCMHead">
+    <name>master-bkup</name>
+  </head>
+  <hash>f48272f17501ef6060ffc70a03f3a63a20e0382d</hash>
+</jenkins.plugins.git.GitBranchSCMRevision>

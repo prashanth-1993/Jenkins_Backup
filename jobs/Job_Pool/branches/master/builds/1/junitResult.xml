@@ -1,0 +1,29 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.28">
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/workspace/Job_Pool_master/target/surefire-reports/TEST-com.geekcap.vmturbo.ThingTest.xml</file>
+      <name>com.geekcap.vmturbo.ThingTest</name>
+      <duration>0.01</duration>
+      <time>0.01</time>
+      <nodeId>48</nodeId>
+      <enclosingBlocks>
+        <string>43</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Results</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.01</duration>
+          <className>com.geekcap.vmturbo.ThingTest</className>
+          <testName>testN</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.01</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

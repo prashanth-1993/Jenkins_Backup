@@ -1,0 +1,11 @@
+Started on Sep 5, 2019 10:44:47 AM
+Started by event from 140.82.115.4 ⇒ http://18.185.121.24:8080/github-webhook/ on Thu Sep 05 10:44:47 UTC 2019
+Using strategy: Default
+[poll] Last Built Revision: Revision a62c5ceceab6aa320a83db1a2200de1a3b607ef7 (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h https://github.com/prashanth-1993/hello-world-servlet.git # timeout=10
+Found 8 remote heads on https://github.com/prashanth-1993/hello-world-servlet.git
+[poll] Latest remote head revision on refs/heads/master is: e3dab9141eab81a1e6885096bc48145c336f3a9d
+Done. Took 0.48 sec
+Changes found

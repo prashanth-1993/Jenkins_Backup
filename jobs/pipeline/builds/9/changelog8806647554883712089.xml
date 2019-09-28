@@ -1,0 +1,11 @@
+commit 601fc44fd89139fcd413a1246da89340ad3fcc76
+tree b129ca0653f10a4e19f3a9492a5a4661e3bda8e0
+parent c1bc1d45a40ae80b1864f576dc4184242bdb58e5
+author prashanth-1993 <54202828+prashanth-1993@users.noreply.github.com> 2019-09-04 09:27:23 -0400
+committer GitHub <noreply@github.com> 2019-09-04 09:27:23 -0400
+
+    Update sonar-project.properties
+
+
+
+:100644 100644 8fb6fb4fe3a83ff33f29c4dc0d0dbb51258a2b9e 9dfc4d390cddffce1890ec4502de2508ab23360f M	sonar-project.properties
